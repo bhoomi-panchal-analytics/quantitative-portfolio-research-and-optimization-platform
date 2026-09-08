@@ -13,4 +13,14 @@ st.write(
     "for Indian equities."
 )
 
-st.info("Level 1: Project foundation established.")
+st.divider()
+
+st.subheader("Project Status")
+
+st.success("Level 1: Streamlit application successfully initialized.")
+
+st.write(
+    "This platform will eventually include market data, "
+    "stock analysis, risk modelling, portfolio optimization, "
+    "Monte Carlo simulation, and backtesting."
+)
